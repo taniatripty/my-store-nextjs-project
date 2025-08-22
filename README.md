@@ -1,5 +1,8 @@
 # My Store Next.js Project
 
+## Live Demo
+Check out the live project here: [https://my-store-nextjs-project.vercel.app/](https://my-store-nextjs-project.vercel.app/)
+
 ## Project Overview
 
 Welcome to **My Store**, a modern e-commerce platform built with **Next.js 13**, **Tailwind CSS**, and **MongoDB**. This application offers a seamless shopping experience, featuring product listings, detailed views, and an intuitive admin dashboard. It's designed for both desktop and mobile responsiveness, ensuring accessibility across devices.
