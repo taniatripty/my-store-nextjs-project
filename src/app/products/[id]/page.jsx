@@ -8,14 +8,16 @@ export default async function ProductsDetails({ params }) {
   });
   return (
     <div>
-      <div className="max-w-4xl mx-auto px-6 py-10">
+      <div className="max-w-6xl mx-auto px-6 py-10">
         <div className="grid md:grid-cols-2 gap-8">
           {/* Product Image */}
-          <img
+          <div className="flex justify-center items-center">
+            <img
             src={data.image || "/assets/placeholder.png"}
             alt={data.name}
             className="w-full h-80 object-cover rounded-xl shadow-md"
           />
+          </div>
 
           {/* Product Info */}
           <div>
@@ -32,3 +34,4 @@ export default async function ProductsDetails({ params }) {
     </div>
   );
 }
+
